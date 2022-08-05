@@ -100,8 +100,8 @@ export default function Footer() {
             <p className="text-center text-md-left grey-text">
               &copy; {new Date().getFullYear()} Copyright:{" "}
               <a
-              className="ext2 h6" rel="noopener noreferrer" href="https://www.nityamukt.com">
-                Nityamukt.com
+              className="ext2 h6" rel="noopener noreferrer" href="https://www.sarvvilay.in">
+                sarvvilay.in
               </a>
             </p>
           </MDBCol>
