@@ -6,7 +6,7 @@ export default function Donation() {
   return (
     <div>
       <div className="contactbg">
-        <p className="h2 text-center py-5">Donate Now</p>
+        <p className="h2 text-center text-white py-5">Donate Now</p>
       </div>
       <Container className="pb-5 pt-3">
         <p className="h5 text-center pb-3">Why Donate?</p>

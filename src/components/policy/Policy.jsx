@@ -35,7 +35,7 @@ export default function Policy() {
           agree to its terms.
         </p>
 
-        <h2>Information we collect</h2>
+        <p className="h2">Information we collect</p>
 
         <p>
           The personal information that you are asked to provide, and the
@@ -54,7 +54,7 @@ export default function Policy() {
           email address, and telephone number.
         </p>
 
-        <h2>How we use your information</h2>
+        <p className="h2">How we use your information</p>
 
         <p>We use the information we collect in various ways, including to:</p>
 
@@ -73,7 +73,7 @@ export default function Policy() {
           <li>Find and prevent fraud</li>
         </ul>
 
-        <h2>Log Files</h2>
+        <p className="h2">Log Files</p>
 
         <p>
           sarvvilay.in follows a standard procedure of using log files. These
@@ -88,7 +88,7 @@ export default function Policy() {
           information.
         </p>
 
-        <h2>Advertising Partners Privacy Policies</h2>
+        <p className="h2">Advertising Partners Privacy Policies</p>
 
         <p>
           You may consult this list to find the Privacy Policy for each of the
@@ -110,7 +110,7 @@ export default function Policy() {
           that are used by third-party advertisers.
         </p>
 
-        <h2>Third Party Privacy Policies</h2>
+        <p className="h2">Third Party Privacy Policies</p>
 
         <p>
           sarvvilay.in's Privacy Policy does not apply to other advertisers or
@@ -127,7 +127,7 @@ export default function Policy() {
           respective websites.
         </p>
 
-        <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+        <p className="h2">CCPA Privacy Rights (Do Not Sell My Personal Information)</p>
 
         <p>
           Under the CCPA, among other rights, California consumers have the
@@ -151,7 +151,7 @@ export default function Policy() {
           would like to exercise any of these rights, please contact us.
         </p>
 
-        <h2>GDPR Data Protection Rights</h2>
+        <p className="h2">GDPR Data Protection Rights</p>
 
         <p>
           We would like to make sure you are fully aware of all of your data
@@ -190,7 +190,7 @@ export default function Policy() {
           would like to exercise any of these rights, please contact us.
         </p>
 
-        <h2>Children's Information</h2>
+        <p className="h2"> Children's Information</p>
 
         <p>
           Another part of our priority is adding protection for children while

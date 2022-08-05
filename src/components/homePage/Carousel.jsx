@@ -4,10 +4,9 @@ import {
     MDBCarouselInner,
     MDBCarouselItem,
     MDBView,
-    MDBContainer,
     MDBMask,
     MDBCarouselCaption,
-    MDBJumbotron
+
   } from "mdbreact";
   import SLide1 from '../images/sarvvilay Foundation (20).jpg'
   import SLide2 from '../images/sarvvilay Foundation (16).jpg'

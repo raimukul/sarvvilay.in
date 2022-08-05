@@ -49,16 +49,7 @@ export default function Footer() {
                   Link 3
               </a>
             </p>
-            <p>
-              <a
-              className="ext2 h6"
-                rel="noopener noreferrer"
-                href="https://www.cmi.ac.in/"
-                target="_blank"
-              >
-                 Link 4
-              </a>
-            </p>
+           
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
@@ -85,30 +76,22 @@ export default function Footer() {
                 Webmail
               </a>
             </p>
-            <p>
-              <a
-              className="ext2 h6" rel="noopener noreferrer" href="/sitemap" target="_blank">
-                Sitemap
-              </a>
-            </p>
+          
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p>
               <i className="fa fa-home mr-3" />
-              T-17, 801, Gulmohar Garden, Rajnagar Extension, Ghaziabad, IN
-              201017
+              124, Nautan Road Marachhi, Siwan ( Bihar) India 841243
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> info@nityamukt.com
+              <i className="fa fa-envelope mr-3" /> srvillay01@gmail.com
             </p>
             <p>
-              <i className="fa fa-phone mr-3" />+ 91 8427 318605
+              <i className="fa fa-phone mr-3" />+ 91 7320857665
             </p>
-            <p>
-              <i className="fa fa-phone mr-3" /> + 91 8218 970486
-            </p>
+          
           </MDBCol>
         </MDBRow>
         <hr />
