@@ -23,8 +23,8 @@ export default function Donation() {
         <Card className="p-3">
           <p className="h5">Bank Account Details For Donation</p>
           <hr color="red"/>
-          <p>Account Number : <i>1234567890</i><br/>
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; IFSC : <i>PUNB0474500</i><br/>
+          <p>Account Number : <i>39449964127</i><br/>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; IFSC : <i>SBIN0000133</i><br/>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Name : <i>SARVVILAY FOUNDATION</i>
           
           </p>

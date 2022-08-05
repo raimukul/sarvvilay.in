@@ -9,6 +9,7 @@ import {
   MDBAnimation,
   MDBBtn,
 } from "mdbreact";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -54,10 +55,14 @@ export default function About() {
                     care of all children in a very well manner, so that we can
                     empowers and cultivate better citizens in our nation.
                   </h6>
-                  <MDBBtn color="white">Donate Now</MDBBtn>
-                  <MDBBtn outline color="white">
-                    Know More
-                  </MDBBtn>
+                  <Link to="/donate">
+                    <MDBBtn color="orange">Donate Now</MDBBtn>
+                  </Link>
+                  <Link to="/donate">
+                    <MDBBtn outline color="orange">
+                      Know More
+                    </MDBBtn>
+                  </Link>
                 </MDBAnimation>
               </div>
             </MDBRow>

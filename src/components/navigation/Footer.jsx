@@ -23,7 +23,7 @@ export default function Footer() {
               <a
               className="ext2 h6"
                 rel="noopener noreferrer"
-                href="https://jeemain.nta.nic.in/"
+                href="/"
                 target="_blank"
               >
                 Link 1
@@ -33,7 +33,7 @@ export default function Footer() {
               <a
               className="ext2 h6"
                 rel="noopener noreferrer"
-                href="http://jeeadv.ac.in/"
+                href="/"
                 target="_blank"
               >
                   Link 2
@@ -43,7 +43,7 @@ export default function Footer() {
               <a
               className="ext2 h6"
                 rel="noopener noreferrer"
-                href="https://www.isical.ac.in/"
+                href="/"
                 target="_blank"
               >
                   Link 3
@@ -70,7 +70,7 @@ export default function Footer() {
               <a
               className="ext2 h6"
                 rel="noopener noreferrer"
-                href="http://email.nityamukt.com/"
+                href="/"
                 target="_blank"
               >
                 Webmail
@@ -112,7 +112,7 @@ export default function Footer() {
                   <a
                   rel="noopener noreferrer"
                     className="btn-floating btn-sm rgba-white-slight mx-1 ext2 h6"
-                    href="https://www.instagram.com/nityamukt/"
+                    href="/"
                     target="_blank"
                   >
                     <i className="fab fa-instagram" />
@@ -122,7 +122,7 @@ export default function Footer() {
                   <a
                   rel="noopener noreferrer"
                     className="btn-floating btn-sm rgba-white-slight mx-1 ext2 h6"
-                    href="https://twitter.com/Nityamukt1"
+                    href="/"
                     target="_blank"
                   >
                     <i className="fab fa-twitter" />
