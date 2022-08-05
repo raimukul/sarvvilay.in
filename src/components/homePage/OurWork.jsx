@@ -51,7 +51,7 @@ export default function OurWork() {
         </Carousel>
       </Container>
       <div className="service-area section-padding30">
-        <div className="container">
+        <Container>
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                  
@@ -96,7 +96,7 @@ export default function OurWork() {
                     </div>
                 </div>
             </div>
-        </div>
+        </Container>
     </div>
     </div>
   );

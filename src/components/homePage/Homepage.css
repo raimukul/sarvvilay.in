@@ -69,7 +69,7 @@
   content: "";
   width: 100%;
   height: 0;
-  background: #09cc7f;
+  background: #093468;
   transition: .6s;
   bottom: 0;
   left: 0;
@@ -82,7 +82,7 @@
   margin-bottom: 50px;
   width: 90px;
   height: 90px;
-  background: #09cc7f;
+  background: #093468;
   line-height: 90px;
   text-align: center;
   border-radius: 50%;
@@ -154,7 +154,7 @@
 
 /* line 81, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
 .service-area .single-cat.active .cat-icon span {
-  color: #09cc7f;
+  color: #093468;
   background: #fff;
 }
 
@@ -180,7 +180,7 @@
 
 /* line 103, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
 .service-area .single-cat:hover .cat-icon span {
-  color: #09cc7f;
+  color: #093468;
   background: #fff;
 }
 
@@ -219,7 +219,7 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 22px;
-    color: #09cc7f;
+    color: #e95026;
     text-transform: capitalize;
     display: inline-block;
     letter-spacing: 0.05em;
@@ -238,7 +238,7 @@
   .section-tittle h2 {
     font-size: 42px;
     display: block;
-    color: #072366;
+    color: #e95026;
     font-weight: 800;
     text-transform: capitalize;
     line-height: 1.4;
