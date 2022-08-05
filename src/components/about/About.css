@@ -1,0 +1,79 @@
+.gradient {
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(17, 11, 78, 0.7),
+      rgba(3, 85, 37, 0.7) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(19, 16, 46, 0.7),
+      rgba(7, 143, 64, 0.7) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(27, 17, 106, 0.7)),
+      to(rgba(9, 88, 73, 0.7))
+    );
+    background: -o-linear-gradient(
+      45deg,
+      rgba(19, 16, 46, 0.7),
+      rgba(7, 143, 64, 0.7) 100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+  }
+  
+  .view1 {
+    background-image: url('../images/sarvvilay Foundation (10).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
+  }
+  
+  h6 {
+    line-height: 1.7;
+  }
+  .list-style{
+    list-style: square outside !important;
+  }
+  .mission{
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 50vh;
+
+  }
+  .gradient2 {
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(17, 11, 78, 0.7),
+      rgba(3, 85, 37, 0.7) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(19, 16, 46, 0.7),
+      rgba(7, 143, 64, 0.7) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(27, 17, 106, 0.7)),
+      to(rgba(9, 88, 73, 0.7))
+    );
+    background: -o-linear-gradient(
+      45deg,
+      rgba(19, 16, 46, 0.7),
+      rgba(7, 143, 64, 0.7) 100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(42, 27, 161, 0.7),
+      rgba(29, 210, 177, 0.7) 100%
+    );
+  }
