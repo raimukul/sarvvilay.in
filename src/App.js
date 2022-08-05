@@ -6,6 +6,7 @@ import Index from "./components/homePage/Index";
 import About from "./components/about/About";
 import Donation from "./components/donation/Donation";
 import Policy from "./components/policy/Policy";
+import Contact from "./components/contact/Contact";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donation />} />
           <Route path="/policy" element={<Policy />} />
         </Routes>
