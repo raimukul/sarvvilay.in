@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIframe } from "mdbreact";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 export default function HomeAbout() {
