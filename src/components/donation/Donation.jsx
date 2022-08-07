@@ -24,8 +24,8 @@ export default function Donation() {
         <Card className="p-3 ">
           <Row>
             <Col md="7">
-              <Card.Header>Support Our Cause</Card.Header>
-              <Card.Body>
+              <Card.Header className="supportOurCause">Support Our Cause</Card.Header>
+              <Card.Body className="border border-info">
                 <li className="pt-2">Bringing back dropout kids to school.</li>
                 <li className="pt-2">
                   Giving underprivileged kids tablets and smartphones so they
@@ -49,8 +49,8 @@ export default function Donation() {
                 </li>
               </Card.Body>
             </Col>
-            <Col md="5" className="">
-              <Card.Header>Donate Now</Card.Header>
+            <Col md="5">
+              <Card.Header className="donateNow">Donate Now</Card.Header>
               <Card.Body className="border border-info m-auto justify-content-center">
                 <p>
                   YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 6
@@ -66,6 +66,8 @@ export default function Donation() {
                       ></script>
                       <MDBBtn
                         className="btn-grad-pay"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://razorpay.com/payment-button/pl_K2lFnVNeRtpSZP/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
                       >
                         ₹ 1000
@@ -81,6 +83,8 @@ export default function Donation() {
                       ></script>
                       <MDBBtn
                         className="btn-grad-pay"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://razorpay.com/payment-button/pl_K2laRuVZ0kTPA8/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
                       >
                         ₹ 5000
@@ -98,6 +102,8 @@ export default function Donation() {
                       ></script>
                       <MDBBtn
                         className="btn-grad-pay"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://razorpay.com/payment-button/pl_K2lcHmTITkGZC9/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
                       >
                         ₹ 10000
@@ -111,9 +117,10 @@ export default function Donation() {
                         data-payment_button_id="pl_K2Nz3WfWBFAV9b"
                         async=""
                       ></script>
-                      
                       <MDBBtn
                         className="btn-grad-pay"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://razorpay.com/payment-button/pl_K2le2xi0zb4kjN/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
                       >
                         Pay Now
