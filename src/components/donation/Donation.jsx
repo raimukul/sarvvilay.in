@@ -21,9 +21,9 @@ export default function Donation() {
           each and every one of us to come together to ensure happier childhoods
           for children everywhere!
         </p>
-        <Card className="p-3">
+        <Card className="p-3 ">
           <Row>
-            <Col md="8">
+            <Col md="7">
               <Card.Header>Support Our Cause</Card.Header>
               <Card.Body>
                 <li className="pt-2">Bringing back dropout kids to school.</li>
@@ -49,75 +49,86 @@ export default function Donation() {
                 </li>
               </Card.Body>
             </Col>
-            <Col md="4">
+            <Col md="5" className="">
               <Card.Header>Donate Now</Card.Header>
-              <Card.Body>
+              <Card.Body className="border border-info m-auto justify-content-center">
                 <p>
                   YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 6
                   MONTHS
                 </p>
-                <form>
-                  <script
-                    src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_K2Nz3WfWBFAV9b"
-                    async=""
-                  >
-                    {" "}
-                  </script>
-                  <MDBBtn href="https://razorpay.com/payment-button/pl_K2Nz3WfWBFAV9b/view/?utm_source=payment_button&amp;utm_medium=button&amp;utm_campaign=payment_button">
-                    Pay Now
-                  </MDBBtn>
-                </form>
-                <form>
-                  <script
-                    src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_K2Nz3WfWBFAV9b"
-                    async=""
-                  >
-                  </script>
-                  <span class="razorpay-payment-button svelte-ohbfj8">
-                    <a
-                      href="https://razorpay.com/payment-button/pl_K2Nz3WfWBFAV9b/view/?utm_source=payment_button&amp;utm_medium=button&amp;utm_campaign=payment_button"
-                      type="submit"
-                      class="PaymentButton PaymentButton--dark PaymentButton--rzpTheme PaymentButton--rzp-dark-standard svelte-ekc7fv"
-                    >
-                      <svg
-                        width="18"
-                        height="20"
-                        viewBox="0 0 18 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="svelte-ekc7fv"
+                <Row>
+                  <Col>
+                    <form>
+                      <script
+                        src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                        async=""
+                      ></script>
+                      <MDBBtn
+                        className="btn-grad-pay"
+                        href="https://razorpay.com/payment-button/pl_K2lFnVNeRtpSZP/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
                       >
-                        <path
-                          d="M7.077 6.476l-.988 3.569 5.65-3.589-3.695 13.54 3.752.004 5.457-20L7.077 6.476z"
-                          fill="#fff"
-                          class="svelte-ekc7fv"
-                        ></path>
-                        <path
-                          d="M1.455 14.308L0 20h7.202L10.149 8.42l-8.694 5.887z"
-                          fill="#fff"
-                          class="svelte-ekc7fv"
-                        ></path>
-                      </svg>{" "}
-                      <div class="PaymentButton-contents svelte-ekc7fv">
-                        <span class="PaymentButton-text svelte-ekc7fv">
-                          Donate Now
-                        </span>{" "}
-                        <div class="PaymentButton-securedBy svelte-ekc7fv">
-                          Secured by Razorpay
-                        </div>
-                      </div>
-                    </a>
-                  </span>
-                </form>
+                        ₹ 1000
+                      </MDBBtn>
+                    </form>
+                  </Col>
+                  <Col>
+                    <form>
+                      <script
+                        src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                        async=""
+                      ></script>
+                      <MDBBtn
+                        className="btn-grad-pay"
+                        href="https://razorpay.com/payment-button/pl_K2laRuVZ0kTPA8/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
+                      >
+                        ₹ 5000
+                      </MDBBtn>
+                    </form>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <form>
+                      <script
+                        src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                        async=""
+                      ></script>
+                      <MDBBtn
+                        className="btn-grad-pay"
+                        href="https://razorpay.com/payment-button/pl_K2lcHmTITkGZC9/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
+                      >
+                        ₹ 10000
+                      </MDBBtn>
+                    </form>
+                  </Col>
+                  <Col>
+                    <form>
+                      <script
+                        src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                        async=""
+                      ></script>
+                      
+                      <MDBBtn
+                        className="btn-grad-pay"
+                        href="https://razorpay.com/payment-button/pl_K2le2xi0zb4kjN/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"
+                      >
+                        Pay Now
+                      </MDBBtn>
+                      *You can pay upto ₹ 1,00,000.
+                    </form>
+                  </Col>
+                </Row>
               </Card.Body>
             </Col>
           </Row>
           <Card.Footer className="text-muted">
             YOUR CONTRIBUTIONS ARE ELIGIBLE FOR UPTO 50% TAX BENEFIT UNDER
             SECTION 80G AS SMILE FOUNDATION IS REGISTERED AS NON PROFIT
-            ORGANIZATION" PAN: AACTS7973G | 80G NUMBER: AACTS7973GF20210
+            ORGANIZATION" PAN: ABDCS7556C | 80G NUMBER: ABDCS7556CE20215
           </Card.Footer>
         </Card>
         <Card className="p-3">

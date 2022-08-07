@@ -28,3 +28,31 @@
     width: 100px;
     height: 100px;
 }
+.bg-donation{
+    background-image: url(../images/4877806.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* button */
+         
+.btn-grad-pay {
+    background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)!important;
+    margin: 10px!important;
+    padding: 15px 45px!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    transition: 0.5s;
+    background-size: 200% auto!important;
+    color: white!important;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px!important;
+    display: block!important;
+  }
+
+  .btn-grad-pay:hover {
+    background-position: right center!important; /* change the direction of the change here */
+    color: #fff!important;
+    text-decoration: none!important;
+  }
+ 
