@@ -6,6 +6,7 @@ import {
     MDBView,
     MDBMask,
     MDBCarouselCaption,
+    MDBContainer,
 
   } from "mdbreact";
   import SLide1 from '../images/sarvvilay Foundation (20).jpg'
@@ -15,8 +16,8 @@ import {
 export default function Carousel() {
   return (
     <div>
-        
-      <MDBCarousel
+        <MDBContainer>
+        <MDBCarousel
       activeItem={1}
       length={3}
       showControls={true}
@@ -46,6 +47,7 @@ export default function Carousel() {
               alt="Second slide"
             />
           <MDBMask overlay="black-strong" />
+         
           </MDBView>
           <MDBCarouselCaption>
             <h3 className="h3-responsive">Strong mask</h3>
@@ -68,6 +70,7 @@ export default function Carousel() {
         </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
+        </MDBContainer>
     </div>
   )
 }

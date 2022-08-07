@@ -32,8 +32,7 @@ export default function OurWork() {
                 <img className="d-block w-100" src={Slide1} alt="First slide" />
                 <Carousel.Caption className="crousel-service">
                   <p>
-                    Organises various book distribution campaigns throughout the
-                    year to provide free books and stationery to children.
+                    Organises book distribution campaigns to provide books and stationery to children.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -46,7 +45,7 @@ export default function OurWork() {
 
                 <Carousel.Caption className="crousel-service">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Foundation aims to bring literacy and education to poor rural families.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -55,8 +54,7 @@ export default function OurWork() {
 
                 <Carousel.Caption className="crousel-service">
                   <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                  Encourage the children with the sports and games by providing minimum sports accessories.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>

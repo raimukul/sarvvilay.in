@@ -6,7 +6,7 @@ import OurMission from "./OurMission";
 
 export default function Index() {
   return (
-    <div>
+    <div className="homepagebg">
       <Carousel />
       <HomeAbout/>
       <OurWork/>
