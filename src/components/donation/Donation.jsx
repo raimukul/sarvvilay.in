@@ -26,9 +26,7 @@ export default function Donation() {
             <Col md="8">
               <Card.Header>Support Our Cause</Card.Header>
               <Card.Body>
-                <li className="pt-2">
-                  Bringing back dropout kids to school.
-                </li>
+                <li className="pt-2">Bringing back dropout kids to school.</li>
                 <li className="pt-2">
                   Giving underprivileged kids tablets and smartphones so they
                   may continue to learn.
@@ -46,7 +44,7 @@ export default function Donation() {
                   school.
                 </li>
                 <li className="pt-2">
-                Training for teachers is necessary to prepare them for the
+                  Training for teachers is necessary to prepare them for the
                   changing digital learning environment.
                 </li>
               </Card.Body>
@@ -54,11 +52,65 @@ export default function Donation() {
             <Col md="4">
               <Card.Header>Donate Now</Card.Header>
               <Card.Body>
-              <p>YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 6 MONTHS</p>
-              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_K2Nz3WfWBFAV9b" async> </script>
-              
-               </form>
-              
+                <p>
+                  YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 6
+                  MONTHS
+                </p>
+                <form>
+                  <script
+                    src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                    async=""
+                  >
+                    {" "}
+                  </script>
+                  <MDBBtn href="https://razorpay.com/payment-button/pl_K2Nz3WfWBFAV9b/view/?utm_source=payment_button&amp;utm_medium=button&amp;utm_campaign=payment_button">
+                    Pay Now
+                  </MDBBtn>
+                </form>
+                <form>
+                  <script
+                    src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_K2Nz3WfWBFAV9b"
+                    async=""
+                  >
+                  </script>
+                  <span class="razorpay-payment-button svelte-ohbfj8">
+                    <a
+                      href="https://razorpay.com/payment-button/pl_K2Nz3WfWBFAV9b/view/?utm_source=payment_button&amp;utm_medium=button&amp;utm_campaign=payment_button"
+                      type="submit"
+                      class="PaymentButton PaymentButton--dark PaymentButton--rzpTheme PaymentButton--rzp-dark-standard svelte-ekc7fv"
+                    >
+                      <svg
+                        width="18"
+                        height="20"
+                        viewBox="0 0 18 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="svelte-ekc7fv"
+                      >
+                        <path
+                          d="M7.077 6.476l-.988 3.569 5.65-3.589-3.695 13.54 3.752.004 5.457-20L7.077 6.476z"
+                          fill="#fff"
+                          class="svelte-ekc7fv"
+                        ></path>
+                        <path
+                          d="M1.455 14.308L0 20h7.202L10.149 8.42l-8.694 5.887z"
+                          fill="#fff"
+                          class="svelte-ekc7fv"
+                        ></path>
+                      </svg>{" "}
+                      <div class="PaymentButton-contents svelte-ekc7fv">
+                        <span class="PaymentButton-text svelte-ekc7fv">
+                          Donate Now
+                        </span>{" "}
+                        <div class="PaymentButton-securedBy svelte-ekc7fv">
+                          Secured by Razorpay
+                        </div>
+                      </div>
+                    </a>
+                  </span>
+                </form>
               </Card.Body>
             </Col>
           </Row>
