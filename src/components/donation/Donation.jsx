@@ -1,7 +1,7 @@
 import React from "react";
 import "./Donation.css";
 import { Card, Container, Row, Col } from "react-bootstrap";
-import { MDBBtn } from "mdbreact";
+import { MDBBox, MDBBtn, MDBTypography } from "mdbreact";
 
 export default function Donation() {
   return (
@@ -10,52 +10,70 @@ export default function Donation() {
         <p className="h2 text-center text-white py-5">Donate Now</p>
       </div>
       <Container className="pb-5 pt-3">
-        <p className="h5 text-center pb-3">Why Donate?</p>
-        <p>
-          Your contributions help us serve India’s most marginalized children
-          and ensure that they are able to go to school, get proper nutrition
-          and healthcare and stay protected from abuse and exploitation.
-        </p>
-        <p>
-          We cannot do the work that we do without your support and it’ll need
-          each and every one of us to come together to ensure happier childhoods
-          for children everywhere!
-        </p>
+        <MDBTypography blockquote bqColor="warning">
+          <MDBBox tag="p" mb={0} className="bq-title">
+            Why Donate?
+          </MDBBox>
+        </MDBTypography>
+        <MDBTypography blockquote bqColor="primary">
+          <MDBBox tag="p" mb={0} className="bq-title">
+            Your contributions help us serve India’s most marginalized children
+            and ensure that they are able to go to school, get proper nutrition
+            and healthcare and stay protected from abuse and exploitation.
+          </MDBBox>
+        </MDBTypography>
+        <MDBTypography blockquote bqColor="success">
+          <MDBBox tag="p" mb={0} className="bq-title">
+            We cannot do the work that we do without your support and it’ll need
+            each and every one of us to come together to ensure happier
+            childhoods for children everywhere!
+          </MDBBox>
+        </MDBTypography>
+
         <Card className="p-3 ">
           <Row>
             <Col md="7">
-              <Card.Header className="supportOurCause">Support Our Cause</Card.Header>
+              <Card.Header className="supportOurCause">
+                Support Our Cause
+              </Card.Header>
               <Card.Body className="border border-info">
-                <li className="pt-2">Bringing back dropout kids to school.</li>
-                <li className="pt-2">
+                <MDBTypography note noteColor="primary">
+                  Bringing back dropout kids to school.
+                </MDBTypography>
+                <MDBTypography note noteColor="secondary">
                   Giving underprivileged kids tablets and smartphones so they
                   may continue to learn.
-                </li>
-                <li className="pt-2">
+                </MDBTypography>
+                <MDBTypography note noteColor="success">
                   Giving underprivileged kids the essential supplies,
                   stationery, and assistance.
-                </li>
-                <li className="pt-2">
+                </MDBTypography>
+                <MDBTypography note noteColor="danger">
                   Maintaining children's engagement with helpline services and
                   one-on-one monitoring sessions.
-                </li>
-                <li className="pt-2">
+                </MDBTypography>
+                <MDBTypography note noteColor="warning">
                   Parents are often counselled to ensure the youngster attends
                   school.
-                </li>
-                <li className="pt-2">
+                </MDBTypography>
+                <MDBTypography note noteColor="info">
                   Training for teachers is necessary to prepare them for the
                   changing digital learning environment.
-                </li>
+                </MDBTypography>
               </Card.Body>
             </Col>
             <Col md="5">
               <Card.Header className="donateNow">Donate Now</Card.Header>
               <Card.Body className="border border-info m-auto justify-content-center">
-                <p>
-                  YOUR DONATION WILL HELP FOR THE EDUCATION OF 1 CHILD FOR 6
-                  MONTHS
-                </p>
+                <MDBTypography note noteColor="info">
+                  Giving to the charities that represent the causes you care
+                  about benefits both the charity and you personally.
+                </MDBTypography>
+                <MDBTypography note noteColor="success">
+                  Millions of individuals regularly donate to charities to
+                  support issues they care about and for the benefits it brings
+                  to their own lives.
+                </MDBTypography>
                 <Row>
                   <Col>
                     <form>
@@ -133,9 +151,9 @@ export default function Donation() {
             </Col>
           </Row>
           <Card.Footer className="text-muted">
-            YOUR CONTRIBUTIONS ARE ELIGIBLE FOR UPTO 50% TAX BENEFIT UNDER
-            SECTION 80G AS SMILE FOUNDATION IS REGISTERED AS NON PROFIT
-            ORGANIZATION" PAN: ABDCS7556C | 80G NUMBER: ABDCS7556CE20215
+            "Your contributions are eligible for upto 50% tax benefit under
+            section 80g as Sarvvilay foundation is registered as non profit
+            organization"<br/> PAN: ABDCS7556C | 80G NUMBER: ABDCS7556CE20215.
           </Card.Footer>
         </Card>
         <Card className="p-3">
