@@ -9,9 +9,10 @@ import {
     MDBContainer,
 
   } from "mdbreact";
-  import SLide1 from '../images/sarvvilay Foundation (20).jpg'
-  import SLide2 from '../images/sarvvilay Foundation (16).jpg'
-  import SLide3 from '../images/sarvvilay Foundation (15).jpg'
+  import SLide1 from '../images/banner4.jpg'
+  import SLide2 from '../images/banner2.jpg'
+  import SLide3 from '../images/banner3.png'
+  import SLide4 from '../images/banner1.jpg'
 
 export default function Carousel() {
   return (
@@ -19,9 +20,9 @@ export default function Carousel() {
         <MDBContainer>
         <MDBCarousel
       activeItem={1}
-      length={3}
+      length={4}
       showControls={true}
-      showIndicators={true}
+      showIndicators={false}
       className="z-depth-1 max-vh-80"
     >
       <MDBCarouselInner>
@@ -32,12 +33,12 @@ export default function Carousel() {
               src={SLide1}
               alt="First slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask />
           </MDBView>
-          <MDBCarouselCaption>
+          {/* <MDBCarouselCaption>
             <h3 className="h3-responsive">Light mask</h3>
             <p>First text</p>
-          </MDBCarouselCaption>
+          </MDBCarouselCaption> */}
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
@@ -46,13 +47,13 @@ export default function Carousel() {
               src={SLide2}
               alt="Second slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask />
          
           </MDBView>
-          <MDBCarouselCaption>
+          {/* <MDBCarouselCaption>
             <h3 className="h3-responsive">Strong mask</h3>
             <p>Second text</p>
-          </MDBCarouselCaption>
+          </MDBCarouselCaption> */}
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
@@ -61,12 +62,26 @@ export default function Carousel() {
               src={SLide3}
               alt="Third slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask />
           </MDBView>
-          <MDBCarouselCaption>
+          {/* <MDBCarouselCaption>
             <h3 className="h3-responsive">Slight Mast</h3>
             <p>Third text</p>
-          </MDBCarouselCaption>
+          </MDBCarouselCaption> */}
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="4">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src={SLide4}
+              alt="Third slide"
+            />
+          <MDBMask />
+          </MDBView>
+          {/* <MDBCarouselCaption>
+            <h3 className="h3-responsive">Slight Mast</h3>
+            <p>Third text</p>
+          </MDBCarouselCaption> */}
         </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
