@@ -3,10 +3,9 @@ import { Container } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import "./Homepage.css";
 import Card from "react-bootstrap/Card";
-import Slide1 from "../images/sarvvilay Foundation (21).jpg";
-import Slide2 from "../images/sarvvilay Foundation (11).jpg";
-import Slide3 from "../images/sarvvilay Foundation (9).jpg";
-
+import Slide1 from "../images/OurWork/work (1).jpg";
+import Slide2 from "../images/OurWork/work (2).jpg";
+import Slide3 from "../images/OurWork/work (3).jpg";
 
 export default function OurWork() {
   return (
@@ -30,11 +29,11 @@ export default function OurWork() {
             <Carousel fade>
               <Carousel.Item>
                 <img className="d-block w-100" src={Slide1} alt="First slide" />
-                <Carousel.Caption className="crousel-service">
+                {/* <Carousel.Caption className="crousel-service">
                   <p>
                     Organises book distribution campaigns to provide books and stationery to children.
                   </p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img
@@ -43,26 +42,25 @@ export default function OurWork() {
                   alt="Second slide"
                 />
 
-                <Carousel.Caption className="crousel-service">
+                {/* <Carousel.Caption className="crousel-service">
                   <p>
                   Foundation aims to bring literacy and education to poor rural families.
                   </p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={Slide3} alt="Third slide" />
 
-                <Carousel.Caption className="crousel-service">
+                {/* <Carousel.Caption className="crousel-service">
                   <p>
                   Encourage the children with the sports and games by providing minimum sports accessories.
                   </p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
             </Carousel>
           </Card.Body>
         </Card>
       </Container>
-     
     </div>
   );
 }

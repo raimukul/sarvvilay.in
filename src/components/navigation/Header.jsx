@@ -32,7 +32,9 @@ export default function Header() {
             <Nav.Link as={Link} to="/donate" className="h5 ext3" eventKey="2">
               Donation
             </Nav.Link>
-           
+            <Nav.Link as={Link} to="/work-with-us" className="h5 ext3" eventKey="2">
+              Work With Us
+            </Nav.Link>
             <Nav.Link as={Link} to="/contact" className="h5 ext3" eventKey="2">
               Contact Us
             </Nav.Link>

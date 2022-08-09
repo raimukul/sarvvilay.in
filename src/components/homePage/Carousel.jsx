@@ -9,10 +9,10 @@ import {
     MDBContainer,
 
   } from "mdbreact";
-  import SLide1 from '../images/banner4.jpg'
-  import SLide2 from '../images/banner2.jpg'
-  import SLide3 from '../images/banner3.png'
-  import SLide4 from '../images/banner1.jpg'
+  import SLide1 from '../images/banner/banner4.jpg'
+  import SLide2 from '../images/banner/banner2.jpg'
+  import SLide3 from '../images/banner/banner3.png'
+  import SLide4 from '../images/banner/banner1.jpg'
 
 export default function Carousel() {
   return (

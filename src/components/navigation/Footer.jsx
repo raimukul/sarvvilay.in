@@ -106,7 +106,7 @@ export default function Footer() {
             </p>
           </MDBCol>
           <MDBCol md="4" lg="4" className="ml-lg-0">
-            <div className="text-center text-md-right">
+            {/* <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
                   <a
@@ -145,7 +145,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </MDBCol>
         </MDBRow>
       </MDBContainer>

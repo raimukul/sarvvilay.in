@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import "./About.css";
 import {
   MDBMask,
@@ -15,14 +14,7 @@ export default function About() {
   return (
     <div>
       <div>
-        <Helmet>
-          <title>About|SARVVILAY FOUNDATION</title>
-          <meta
-            name="description"
-            content="Global online/offline educational institute."
-          />
-          <meta name="theme-color" content="#E6E6FA" />
-        </Helmet>
+      
         <MDBView className="mb-0 view1">
           <MDBMask className="white-text gradient" />
           <MDBContainer
