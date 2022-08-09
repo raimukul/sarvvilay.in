@@ -76,7 +76,7 @@
     box-shadow: 0 0 20px #eee!important;
     border-radius: 10px!important;
     display: block!important;
-    position:fixed;
+    position:fixed!important;
 	bottom:0px;
 	right:0px;
   }
