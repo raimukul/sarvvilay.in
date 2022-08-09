@@ -153,7 +153,7 @@ export default function Donation() {
           <Card.Footer className="text-muted">
             "Your contributions are eligible for upto 50% tax benefit under
             section 80g as Sarvvilay foundation is registered as non profit
-            organization"<br/> PAN: ABDCS7556C | 80G NUMBER: ABDCS7556CE20215.
+            organization"<br/> PAN: ABDCS7556C | 80G NUMBER: ABDCS7556CF20221.
           </Card.Footer>
         </Card>
         <Card className="p-3">

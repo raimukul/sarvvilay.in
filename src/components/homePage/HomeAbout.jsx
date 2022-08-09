@@ -37,7 +37,7 @@ export default function HomeAbout() {
               <Card.Body className="pt-5">
                 <MDBIframe
                   className="w-100"
-                  src="https://www.youtube.com/embed/v64KOxKVLVg"
+                  src="https://www.youtube.com/embed/omQbqjmWHpI"
                 />
               </Card.Body>
             </Card>
