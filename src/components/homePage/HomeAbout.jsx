@@ -9,7 +9,7 @@ export default function HomeAbout() {
         <MDBRow>
           <MDBCol md="8">
             <Card>
-              <Card.Header>
+              <Card.Header className="card-hbghg">
                 <Card.Title>About SARVVILAY FOUNDATION</Card.Title>
               </Card.Header>
               <Card.Body>
@@ -31,7 +31,7 @@ export default function HomeAbout() {
           </MDBCol>
           <MDBCol md="4">
             <Card>
-              <Card.Header>
+              <Card.Header className="card-hbghg">
                 <Card.Title>Story of the day</Card.Title>
               </Card.Header>
               <Card.Body className="pt-5">

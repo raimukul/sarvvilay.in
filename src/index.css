@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-hbghg {
+  background-color: #b2cbed!important;
+  background-image: linear-gradient(0deg, #b2cbed 0%, #ecf5f4 100%)!important;
+}

@@ -12,8 +12,8 @@ export default function OurWork() {
     <div>
       <Container>
         <Card>
-          <Card.Header>
-            <Card.Title>Our Work</Card.Title>
+          <Card.Header className="card-hbghg">
+            <Card.Title >Our Work</Card.Title>
           </Card.Header>
           <Card.Body>
             <Card.Text className="pb-3">

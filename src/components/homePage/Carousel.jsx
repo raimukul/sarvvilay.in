@@ -20,7 +20,7 @@ export default function Carousel() {
         <MDBCarousel
           activeItem={1}
           length={4}
-          showControls={false}
+          showControls={true}
           showIndicators={false}
           className="z-depth-1 max-vh-80"
         >
