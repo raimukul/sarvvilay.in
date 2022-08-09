@@ -63,3 +63,27 @@
     background-color: #e94f25!important;
     color: #fff!important;
  }
+         
+.donation-btnA {
+    background-image: linear-gradient(to right, #d310277a 0%, #88303a 51%, #48373970 100%)!important;
+    margin: 10px!important;
+    padding: 15px 45px!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    transition: 0.5s!important;
+    background-size: 200% auto!important;
+    color: white;            
+    box-shadow: 0 0 20px #eee!important;
+    border-radius: 10px!important;
+    display: block!important;
+    position:fixed;
+	bottom:0px;
+	right:0px;
+  }
+  
+  .donation-btnA:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  

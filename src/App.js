@@ -8,6 +8,7 @@ import Donation from "./components/donation/Donation";
 import Policy from "./components/policy/Policy";
 import Contact from "./components/contact/Contact";
 import WorkWithUs from "./components/workWithUs/WorkWithUs";
+import DonationButton from "./components/donation/DonationButton";
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/work-with-us" element={<WorkWithUs />} />
           <Route path="/policy" element={<Policy />} />
         </Routes>
+        <DonationButton/>
         <Footer />
       </BrowserRouter>
     </div>
