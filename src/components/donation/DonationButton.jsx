@@ -4,7 +4,7 @@ import "./Donation.css";
 
 export default function DonationButton() {
   return (
-    <div>
+    <div className="container">
       <form>
         <script
           src="https://checkout.razorpay.com/v1/payment-button.js"
@@ -12,7 +12,7 @@ export default function DonationButton() {
           async=""
         ></script>
         <MDBBtn
-          className="donation-btnA"
+          className="donation-btnA "
           target="_blank"
           rel="noopener noreferrer"
           href="https://razorpay.com/payment-button/pl_K2le2xi0zb4kjN/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"

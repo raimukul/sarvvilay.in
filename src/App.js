@@ -9,6 +9,7 @@ import Policy from "./components/policy/Policy";
 import Contact from "./components/contact/Contact";
 import WorkWithUs from "./components/workWithUs/WorkWithUs";
 import DonationButton from "./components/donation/DonationButton";
+import Gallery from "./components/gallery/Gallery";
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donation />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/work-with-us" element={<WorkWithUs />} />
           <Route path="/policy" element={<Policy />} />
         </Routes>
